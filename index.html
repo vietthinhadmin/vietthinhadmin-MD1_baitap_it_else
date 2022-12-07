@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuchanhifelse</title>
+</head>
+<body>
+    <h1>A Web Page</h1>
+    <p id="demo">A Paragraph</p>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <script>
+        function myFunction() {
+            let contentP=document.getElementById('demo').innerText;
+            console.log(contentP);
+            if (contentP ==='A Paragraph' ) {
+                document.getElementById("demo").innerHTML = "Paragraph changed.";
+            }else {
+                document.getElementById("demo").innerHTML= "A Paragraph" ;
+            }
+    }
+
+</script>
+
+</body>
+</html>
